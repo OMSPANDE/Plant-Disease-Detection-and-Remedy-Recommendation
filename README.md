@@ -108,11 +108,7 @@ Add screenshots here after you train and run the Streamlit app. No accuracy, pre
 
 PlantVillage images are curated and may not represent field lighting, backgrounds, mixed symptoms, pests, or nutrient problems. Use it as screening support, not agronomic advice. Future work could include field-image validation, a fuller reviewed knowledge base, multilingual guidance, feedback collection, and crop-region-specific expert review.
 
-## Resume / interview description
 
-Built an end-to-end plant disease screening system using EfficientNetB0 transfer learning, data augmentation, fine-tuning, test-set evaluation, Grad-CAM explainability, and a Streamlit interface. The model predicts locally from newly uploaded leaf images while a separate knowledge base supplies safety-conscious remedy and prevention guidance.
-
-In an interview, explain the separation of concerns: the neural network performs only image classification; JSON retrieval owns advice; the saved class mapping prevents prediction-label drift; and the confidence threshold keeps uncertain outputs honest.
 
 ## GitHub notes and disclaimer
 
